@@ -1,0 +1,48 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+header {
+    background-color: aquamarine;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.selesaiDibaca {
+    display: inline;
+}
+button {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.btn-book {
+    display: flex;
+
+    gap: 10px;
+}
