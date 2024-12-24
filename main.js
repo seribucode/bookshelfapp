@@ -123,7 +123,7 @@ function bookList(bookObject) {
     if (bookObject.isComplete) {
         const tombolBelum = document.createElement("button");
         tombolBelum.innerText = "Belum selesai";
-        tombolBelum.setAttribute("data-testid", "bookItemIsunCompleteButton");
+        tombolBelum.setAttribute("data-testid", "bookItemIsCompleteButton");
         tombolBelum.addEventListener("click", function () {
             belumSelesai(bookObject.id);
         });
